@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#0D3B66"               # Deep blue for buttons and accents
+backgroundColor = "#b1adadff"            # Soft light gray background
+secondaryBackgroundColor = "#FFFFFF"   # White sections/cards
+textColor = "#1A1A1A"                  # Dark gray text
+font = "monospace"                          
