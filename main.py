@@ -1,12 +1,62 @@
 import streamlit as st
 from projects import projects
 
-def show_projects(projects):
+import streamlit as st
+
+def show_projects(projects, filter_tags=None):
+    """
+    Display projects in a clean layout with images, tech stack, and tags.
+    
+    :param projects: List of project dictionaries.
+    :param filter_tags: Optional list of tags to filter projects.
+    """
     for p in projects:
-        st.subheader(p["title"])
-        st.write(p["desc"])
-        st.markdown(f"[🔗 View Project]({p['link']})")
-        st.divider()
+        # Skip project if it doesn't match filter tags
+        if filter_tags and not any(tag in p.get("tags", []) for tag in filter_tags):
+            continue
+
+        # Container for each project
+        with st.container():
+            cols = st.columns([1, 2])  # Image left, details right
+            
+            with cols[0]:
+                if "image" in p:
+                    st.image(p["image"], width='content')
+
+            with cols[1]:
+                st.subheader(p["title"])
+                st.write(p.get("desc", ""))
+
+                # Role and date
+                role_date = ""
+                if "role" in p:
+                    role_date += f"**Role:** {p['role']}  "
+                if "date" in p:
+                    role_date += f"**Date:** {p['date']}"
+                if role_date:
+                    st.write(role_date)
+
+                # Tech stack badges
+                if "tech_stack" in p:
+                    st.write("**Tech Stack:**")
+                    st.markdown(" ".join([f"`{tech}`" for tech in p["tech_stack"]]))
+
+                # Tags
+                if "tags" in p:
+                    st.write("**Tags:**")
+                    st.markdown(", ".join([f"`{tag}`" for tag in p["tags"]]))
+
+                # Links
+                links = []
+                if "link" in p:
+                    links.append(f"[🔗 Live Demo]({p['link']})")
+                if "github_link" in p:
+                    links.append(f"[💻 GitHub]({p['github_link']})")
+                if links:
+                    st.markdown(" | ".join(links))
+
+            st.divider()
+
 
 email = "jaheemedwardswork@gmail.com"
 
