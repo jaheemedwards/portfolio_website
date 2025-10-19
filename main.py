@@ -1,8 +1,6 @@
 import streamlit as st
 from projects import projects
 
-import streamlit as st
-
 def show_projects(projects, filter_tags=None):
     """
     Display projects in a clean layout with images, tech stack, and tags.
@@ -120,4 +118,4 @@ with tabs[0]:
 
 with tabs[1]:
     st.header("Projects")
-    show_projects(projects)
+    # show_projects(projects)
