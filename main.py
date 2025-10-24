@@ -46,12 +46,14 @@ def show_projects(projects, filter_tags=None):
 
                 # Links
                 links = []
-                if "link" in p:
-                    links.append(f"[🔗 Live Demo]({p['link']})")
-                if "github_link" in p:
-                    links.append(f"[💻 GitHub]({p['github_link']})")
+                if "link" in p and p["link"]:
+                    links.append(f'<a href="{p["link"]}" style="color: #1a0dab; text-decoration: underline;" target="_blank">🔗 Live Demo</a>')
+                if "github_link" in p and p["github_link"]:
+                    links.append(f'<a href="{p["github_link"]}" style="color: #1a0dab; text-decoration: underline;" target="_blank">💻 GitHub</a>')
+
                 if links:
-                    st.markdown(" | ".join(links))
+                    st.markdown(" | ".join(links), unsafe_allow_html=True)
+
 
             st.divider()
 
@@ -118,4 +120,4 @@ with tabs[0]:
 
 with tabs[1]:
     st.header("Projects")
-    # show_projects(projects)
+    show_projects(projects)

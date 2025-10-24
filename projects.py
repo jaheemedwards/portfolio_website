@@ -1,38 +1,14 @@
 projects = [
     {
-        "title": "Facial Emotion Recognition Project",
-        "desc": "Build a CNN to detect emotions from images or live camera feed and display the current emotion on a web app.",
-        "link": "",  # Link to live app once deployed
-        "github_link": "",  # Add GitHub repo link when ready
-        "tech_stack": ["Python", "TensorFlow", "CNN", "Gradio"],
-        "tags": ["AI", "Healthcare", "Computer Vision", "Web App"],
-        "date": "",
-        "image": "/home/jaheem/personal_projects/portfolio_website/assets/portfolio_photo.jpg",  # Optional: path to screenshot
+        "title": "Forest Fire Prediction",
+        "desc": "Predict the likelihood of wildfires in the USA based on location, weather, and environmental features. Displays predictions on a web app with interactive map and risk indicators.",
+        "link": "https://forestfirepredictionjaheemedwards.streamlit.app/",
+        "github_link": "https://github.com/jaheemedwards/forest_fire_prediction",
+        "tech_stack": ["Python", "Streamlit", "XGBoost", "Pandas", "Plotly", "Geopandas"],
+        "tags": ["AI", "Data Science", "Machine Learning", "Classification", "Web App", "Geospatial Analysis"],
+        "date": "2025-10-23",
+        "image": "assets/project_images/forest_fire_prediction/forest_fire_website.png",
         "role": "Full Stack Data Scientist",
-        "status": "In Progress"
-    },
-    {
-        "title": "Text-to-Speech Project",
-        "desc": "Develop a TTS system using emotional speech dataset to synthesize audio from text.",
-        "link": "",  # Link to live app when ready
-        "github_link": "",
-        "tech_stack": ["Python", "NLP", "Deep Learning", "Audio Processing"],
-        "tags": ["AI", "Healthcare", "Speech Recognition"],
-        "date": "",
-        "image": "",
-        "role": "Full Stack Data Scientist",
-        "status": "In Progress"
-    },
-    {
-        "title": "Finance Stock Prediction Project",
-        "desc": "Analyze and predict stock trends using historical data and machine learning models.",
-        "link": "",  # Link to deployed app or dashboard
-        "github_link": "",
-        "tech_stack": ["Python", "Pandas", "Scikit-learn", "Machine Learning", "Streamlit"],
-        "tags": ["Finance", "ML", "Data Analysis", "Dashboard"],
-        "date": "",
-        "image": "",
-        "role": "Full Stack Data Scientist",
-        "status": "In Progress"
+        "status": "Completed"
     }
 ]
