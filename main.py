@@ -59,6 +59,7 @@ def show_projects(projects, filter_tags=None):
 
 
 email = "jaheemedwardswork@gmail.com"
+resume_path = "assets/Jaheem_Edwards_Resume_October_2025.pdf"
 
 st.set_page_config(page_title="Portfolio", layout="wide")
 
@@ -86,7 +87,7 @@ with tabs[0]:
         with btn_col1:
             st.download_button(
                 "📄 Download Resume",
-                open("assets/Jaheem_Edwards_Resume_October_2025.pdf", "rb").read(),
+                open(resume_path, "rb").read(),
                 "Jaheem_Edwards_Resume.pdf"
             )
         with btn_col2:
