@@ -2,7 +2,15 @@
 
 This is my **personal portfolio website** built with **Streamlit** to showcase my projects, skills, and experience as a **Full Stack Data Scientist**. I use it to highlight end-to-end data science projects across industries like finance, healthcare, and more.
 
+🌐 **Live Website**: [https://jaheemewardsprojectportfolio.streamlit.app/](https://jaheemewardsprojectportfolio.streamlit.app/)
+
 ## Features
+
+![About Section Screenshot](assets/project_portfolio_about_screenshot.png)
+*Figure 1: About section of the portfolio website.*
+
+![Projects Section Screenshot](assets/project_portfolio_projectTab_screenshot.png)
+*Figure 2: Projects tab showcasing portfolio projects.*
 
 * **About Section**
 
