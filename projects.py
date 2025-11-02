@@ -43,7 +43,7 @@ projects = [
         "tech_stack": ["Python", "Streamlit", "Pandas", "Plotly", "Seaborn", "Statsmodels"],
         "tags": ["A/B Testing", "Data Analysis", "Web App", "Conversion Optimization", "Visualization", "User Engagement"],
         "date": "2025-11-02",
-        "image": "images/ab_testing_app.png",
+        "image": "assets/project_images/ab_testing_analysis/ab_testing_app.png",
         "role": "Data Scientist / Full Stack Developer",
         "status": "Completed"
     }
