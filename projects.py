@@ -22,6 +22,18 @@ projects = [
         "image": "assets/project_images/telco_customer_churn/churnproj.png",
         "role": "Full Stack Data Scientist",
         "status": "Completed"
+    },
+    {
+        "title": "Market Regime Markov Model",
+        "desc": "Analyzes historical stock and cryptocurrency prices to identify market regimes (Bull, Bear, Neutral/Correction) and model their transitions using a Markov Chain. Features interactive visualizations including price charts, shaded regime backgrounds, heatmaps, transition matrices, steady-state probabilities, and future regime simulations.",
+        "link": "https://marketmarkovmodeljaheemedwards.streamlit.app/",
+        "github_link": "https://github.com/jaheemedwards/market-regime-markov-model",
+        "tech_stack": ["Python", "Streamlit", "Pandas", "NumPy", "Plotly", "yFinance", "Markov Chains"],
+        "tags": ["AI", "Data Science", "Time Series Analysis", "Markov Chains", "Finance", "Web App", "Visualization"],
+        "date": "2025-11-02",
+        "image": "assets/project_images/markov_market_regime_model/market_regime_markov_model_chart.png",
+        "role": "Full Stack Data Scientist",
+        "status": "Completed"
     }
 
 ]
