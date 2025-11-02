@@ -66,7 +66,7 @@ projects = [
     {
         "title": "Stock Analysis and Predictions - University Project",
         "desc": "Built a Streamlit app to visualize and forecast S&P 500 stock trends using technical indicators, sentiment analysis, and machine learning models (Random Forest, Linear Regression, XGBoost). Delivered interactive dashboards for investment insights.",
-        "link": "assets/project_images/university_project_assets/Stock_Market_Prediction_Project_Report.pdf",
+        "link": "https://github.com/jaheemedwards/portfolio_website/blob/main/assets/project_images/university_project_assets/Stock_Market_Prediction_Project_Report.pdf",
         "github_link": "https://github.com/jaheemedwards/COMP3610_Project",
         "tech_stack": ["Python", "Streamlit", "Pandas", "NumPy", "Plotly", "scikit-learn", "XGBoost"],
         "tags": ["AI", "Data Science", "Time Series", "Finance", "Web App", "Visualization", "Machine Learning"],
@@ -78,7 +78,7 @@ projects = [
     {
         "title": "Amazon Reviews: Data Science and Machine Learning - University Project",
         "desc": "Processed 200GB of Amazon Reviews across 34 categories. Performed data acquisition, cleaning, EDA, sentiment classification (logistic regression), recommendation system (ALS), and clustering (k-means) to extract actionable insights.",
-        "link": "assets/project_images/university_project_assets/COMP3610_A3_Report.pdf",
+        "link": "https://github.com/jaheemedwards/portfolio_website/blob/main/assets/project_images/university_project_assets/COMP3610_A3_Report.pdf",
         "github_link": "https://github.com/jaheemedwards/COMP3610_bigDataAnalytics_A3",
         "tech_stack": ["Python", "Pandas", "NumPy", "scikit-learn", "Spark", "MLlib", "Recommendation Systems", "Clustering"],
         "tags": ["AI", "Data Science", "Big Data", "Machine Learning", "NLP", "Recommendation System", "Clustering"],
@@ -90,7 +90,7 @@ projects = [
     {
         "title": "Fake News Detection - University Project",
         "desc": "Developed a fake news detection system using machine learning (Logistic Regression, XGBoost) and deep learning (BERT) for binary and multiclass classification. Built a Streamlit web app for real-time predictions and interactive model comparison.",
-        "link": "assets/project_images/university_project_assets/COMP3608_Project_Report.pdf",
+        "link": "https://github.com/jaheemedwards/portfolio_website/blob/main/assets/project_images/university_project_assets/COMP3608_Project_Report.pdf",
         "github_link": "https://github.com/Intelligent-Systems-Team-1/Fake-News-Detector",
         "tech_stack": ["Python", "Streamlit", "Pandas", "scikit-learn", "XGBoost", "BERT", "NLP"],
         "tags": ["AI", "Data Science", "NLP", "Machine Learning", "Deep Learning", "Classification", "Web App"],
