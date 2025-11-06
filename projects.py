@@ -59,8 +59,8 @@ projects = [
         "tech_stack": ["Python", "Streamlit", "SQLAlchemy", "PostgreSQL", "Pandas", "Requests", "GitHub Actions", "APIs", "Web Scraping"],
         "tags": ["Data Engineering", "ETL", "Automation", "Web App", "Dashboard", "Data Warehouse", "API Integration", "Web Scraping"],
         "date": "2025-11-06",
-        "image": "assets/screenshot.png",
-        "role": "Full Stack Data Engineer",
+        "image": "assets/project_images/automated_data_warehouse/data_warehouse_screenshot_1.png",
+        "role": "Data Engineer",
         "status": "Completed"
     },
     {
