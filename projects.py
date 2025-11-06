@@ -52,6 +52,18 @@ projects = [
         "status": "Completed"
     },
     {
+        "title": "Automated Data Warehouse",
+        "desc": "An end-to-end automated data warehouse that collects real-time weather data from the OpenWeather API for world capitals, stores it in a PostgreSQL database hosted on Neon, and displays insights on a fully interactive Streamlit dashboard. The list of capitals was scraped from Wikipedia and the ETL process is scheduled to run automatically via GitHub Actions.",
+        "link": "https://automateddatawarehousejaheemedwards.streamlit.app/",
+        "github_link": "https://github.com/jaheemedwards/Automated-Data-Warehouse",
+        "tech_stack": ["Python", "Streamlit", "SQLAlchemy", "PostgreSQL", "Pandas", "Requests", "GitHub Actions", "APIs", "Web Scraping"],
+        "tags": ["Data Engineering", "ETL", "Automation", "Web App", "Dashboard", "Data Warehouse", "API Integration", "Web Scraping"],
+        "date": "2025-11-06",
+        "image": "assets/screenshot.png",
+        "role": "Full Stack Data Engineer",
+        "status": "Completed"
+    },
+    {
         "title": "A/B Testing Analysis App",
         "desc": "A Streamlit web application for analyzing A/B testing results on a simulated retail website dataset. The app investigates whether changing the website background from White to Black improves user engagement, using conversion rates, time spent, and page views. Features interactive charts, boxplots, segmentation insights by device and location, and a hypothesis testing explanation with conclusions in plain language.",
         "link": "https://abtestingjaheemedwards.streamlit.app/",
