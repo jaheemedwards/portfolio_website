@@ -76,6 +76,18 @@ projects = [
         "status": "Completed"
     },
     {
+        "title": "Data Quality Checker",
+        "desc": "Analyzes tabular datasets (CSV, Excel, Parquet) to assess data quality. Identifies missing values, duplicates, outliers, high cardinality columns, and data type inconsistencies. Generates detailed PDF reports with numeric summary statistics, column sample inspections, and actionable recommendations for cleaning and improving datasets. Includes an interactive Streamlit web app for easy visualization and exploration of dataset quality.",
+        "link": "https://dataqualitycheckerjaheemedwards.streamlit.app/",
+        "github_link": "https://github.com/jaheemedwards/Data_Quality_Checker",
+        "tech_stack": ["Python", "Streamlit", "Pandas", "NumPy", "FPDF", "Plotly"],
+        "tags": ["Data Quality", "Data Cleaning", "Data Integrity", "Data Validation", "Exploratory Data Analysis", "Data Profiling", "Data Science", "Python", "Streamlit", "Web App", "Visualization", "PDF Reports", "Automation"],
+        "date": "2025-11-07",
+        "image": "assets/project_images/data_quality_checker/data_quality_checker_screenshot.png",
+        "role": "Data Scientist",
+        "status": "Completed"
+    },
+    {
         "title": "Stock Analysis and Predictions - University Project",
         "desc": "Built a Streamlit app to visualize and forecast S&P 500 stock trends using technical indicators, sentiment analysis, and machine learning models (Random Forest, Linear Regression, XGBoost). Delivered interactive dashboards for investment insights.",
         "link": "https://github.com/jaheemedwards/portfolio_website/blob/main/assets/project_images/university_project_assets/Stock_Market_Prediction_Project_Report.pdf",
