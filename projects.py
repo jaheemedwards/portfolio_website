@@ -28,15 +28,15 @@ projects = [
         "status": "Live"
     },
     {
-        "title": "Forest Fire Prediction",
-        "desc": "Predict the likelihood of wildfires in the USA based on location, weather, and environmental features. Displays predictions on a web app with interactive map and risk indicators.",
-        "link": "https://forestfirepredictionjaheemedwards.streamlit.app/",
-        "github_link": "https://github.com/jaheemedwards/forest_fire_prediction",
-        "tech_stack": ["Python", "Streamlit", "XGBoost", "Pandas", "Plotly", "Geopandas"],
-        "tags": ["AI", "Data Science", "Machine Learning", "Classification", "Web App", "Geospatial Analysis"],
-        "date": "2025-10-23",
-        "image": "assets/project_images/forest_fire_prediction/forest_fire_website.png",
-        "role": "Full Stack Data Scientist",
+        "title": "Automated Data Warehouse",
+        "desc": "An end-to-end automated data warehouse that collects real-time weather data from the OpenWeather API for world capitals, stores it in a PostgreSQL database hosted on Neon, and displays insights on a fully interactive Streamlit dashboard. The list of capitals was scraped from Wikipedia and the ETL process is scheduled to run automatically via GitHub Actions.",
+        "link": "https://automateddatawarehousejaheemedwards.streamlit.app/",
+        "github_link": "https://github.com/jaheemedwards/Automated-Data-Warehouse",
+        "tech_stack": ["Python", "Streamlit", "SQLAlchemy", "PostgreSQL", "Pandas", "Requests", "GitHub Actions", "APIs", "Web Scraping"],
+        "tags": ["Data Engineering", "ETL", "Automation", "Web App", "Dashboard", "Data Warehouse", "API Integration", "Web Scraping"],
+        "date": "2025-11-06",
+        "image": "assets/project_images/automated_data_warehouse/data_warehouse_screenshot_1.png",
+        "role": "Data Engineer",
         "status": "Completed"
     },
     {
@@ -64,18 +64,6 @@ projects = [
         "status": "Completed"
     },
     {
-        "title": "Automated Data Warehouse",
-        "desc": "An end-to-end automated data warehouse that collects real-time weather data from the OpenWeather API for world capitals, stores it in a PostgreSQL database hosted on Neon, and displays insights on a fully interactive Streamlit dashboard. The list of capitals was scraped from Wikipedia and the ETL process is scheduled to run automatically via GitHub Actions.",
-        "link": "https://automateddatawarehousejaheemedwards.streamlit.app/",
-        "github_link": "https://github.com/jaheemedwards/Automated-Data-Warehouse",
-        "tech_stack": ["Python", "Streamlit", "SQLAlchemy", "PostgreSQL", "Pandas", "Requests", "GitHub Actions", "APIs", "Web Scraping"],
-        "tags": ["Data Engineering", "ETL", "Automation", "Web App", "Dashboard", "Data Warehouse", "API Integration", "Web Scraping"],
-        "date": "2025-11-06",
-        "image": "assets/project_images/automated_data_warehouse/data_warehouse_screenshot_1.png",
-        "role": "Data Engineer",
-        "status": "Completed"
-    },
-    {
         "title": "A/B Testing Analysis App",
         "desc": "A Streamlit web application for analyzing A/B testing results on a simulated retail website dataset. The app investigates whether changing the website background from White to Black improves user engagement, using conversion rates, time spent, and page views. Features interactive charts, boxplots, segmentation insights by device and location, and a hypothesis testing explanation with conclusions in plain language.",
         "link": "https://abtestingjaheemedwards.streamlit.app/",
@@ -97,6 +85,18 @@ projects = [
         "date": "2025-11-07",
         "image": "assets/project_images/data_quality_checker/data_quality_checker_screenshot.png",
         "role": "Data Scientist",
+        "status": "Completed"
+    },
+    {
+        "title": "Forest Fire Prediction",
+        "desc": "Predict the likelihood of wildfires in the USA based on location, weather, and environmental features. Displays predictions on a web app with interactive map and risk indicators.",
+        "link": "https://forestfirepredictionjaheemedwards.streamlit.app/",
+        "github_link": "https://github.com/jaheemedwards/forest_fire_prediction",
+        "tech_stack": ["Python", "Streamlit", "XGBoost", "Pandas", "Plotly", "Geopandas"],
+        "tags": ["AI", "Data Science", "Machine Learning", "Classification", "Web App", "Geospatial Analysis"],
+        "date": "2025-10-23",
+        "image": "assets/project_images/forest_fire_prediction/forest_fire_website.png",
+        "role": "Full Stack Data Scientist",
         "status": "Completed"
     },
     {
