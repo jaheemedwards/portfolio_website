@@ -16,6 +16,18 @@ Project Meta data template
 
 projects = [
     {
+        "title": "Trinidad & Tobago News Explorer",
+        "desc": "An interactive Streamlit dashboard that allows users to explore, visualize, and analyze news articles from Trinidad & Tobago. Features include cluster topics with word clouds, similar story search using embeddings, and trends over time for each news topic.",
+        "link": "https://newsarticledashboardjaheemedwards.streamlit.app/",
+        "github_link": "https://github.com/jaheemedwards/local_news_articles_vector_database",
+        "tech_stack": ["Python", "Streamlit", "Pandas", "Plotly", "Ollama (Embeddings)", "PostgreSQL (Neon)", "UMAP", "KMeans", "WordCloud"],
+        "tags": ["Data Science", "NLP", "Machine Learning", "News Analysis", "Vector Database", "Dashboard"],
+        "date": "2025-11-26",
+        "image": "assets/project_images/news_article_dashboard/news_article_webapp.png",
+        "role": "Full-stack Data Scientist / Developer",
+        "status": "Live"
+    },
+    {
         "title": "Forest Fire Prediction",
         "desc": "Predict the likelihood of wildfires in the USA based on location, weather, and environmental features. Displays predictions on a web app with interactive map and risk indicators.",
         "link": "https://forestfirepredictionjaheemedwards.streamlit.app/",
