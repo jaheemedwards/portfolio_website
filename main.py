@@ -59,7 +59,7 @@ def show_projects(projects, filter_tags=None):
 
 
 email = "jaheemedwardswork@gmail.com"
-resume_path = "assets/coverLetterAndResumeJaheemEdwards.pdf"
+resume_path = "assets/Resume with CL Jaheem Edwards.pdf"
 
 st.set_page_config(page_title="Portfolio", layout="wide")
 
