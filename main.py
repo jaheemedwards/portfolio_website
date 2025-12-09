@@ -72,12 +72,13 @@ with tabs[0]:
     with col1:
         st.title("Hello, I'm Jaheem Edwards")
         paragraph_text = '''
-            I’m a Full Stack Data Scientist passionate about Machine Learning, AI, and turning data into actionable insights.  
-            I enjoy working on end-to-end, full-stack Data Science projects—building models, developing data pipelines, creating APIs, and designing interactive dashboards that bring insights to life.  
+            Jaheem Edwards possesses a BSc in Computer Science from the UWI. He is a Data Scientist in leading companies implementing AI systems. He completed various certificates in Data Science, Machine and Deep Learning assisting in projects namely, News Analytics Dashboard, Automated Data Warehouse and Customer Churn Prediction. 
 
-            My portfolio showcases a variety of projects across industries such as finance, healthcare, and more, demonstrating my ability to tackle diverse challenges and apply data-driven solutions effectively.  
+            He brings expertise in collaborating with cross-functional teams to discover pain points and solve problems with data science principles or technical solutions. Communication, strategic thinking, conceptualization and guiding stakeholder decisions through data are skills he applies, providing a diverse and holistic approach. 
 
-            This website highlights some of my favorite projects, experiments, and the technologies I love working with.
+            Beyond his career, he is an anime fan who passionately practices jiu-jitsu and chess. He is fond of researching innovative technologies as he is deeply curious about AI transformations in industries, motivated by this, he brings an analytical perspective and visionary mindset to challenges. 
+
+            Jaheem’s goal is to push boundaries of data science, drive innovation and thrive as a technology leader.
         '''
 
         st.write(paragraph_text)
