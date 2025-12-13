@@ -101,7 +101,7 @@ with tabs[0]:
 
         with btn_col3:
             st.markdown(
-                """<a href='https://www.linkedin.com/in/jaheem-edwards-79b108360/' target='_blank'>
+                """<a href='https://www.linkedin.com/in/jaheem-edwards/' target='_blank'>
                     <button style='padding:8px 16px; font-size:16px;'>🔗 LinkedIn</button>
                 </a>""",
                 unsafe_allow_html=True
