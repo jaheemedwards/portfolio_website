@@ -25,7 +25,19 @@ projects = [
         "date": "2025-11-26",
         "image": "assets/project_images/news_article_dashboard/news_article_webapp.png",
         "role": "Full-stack Data Scientist / Developer",
-        "status": "Live"
+        "status": "Completed"
+    },
+    {
+        "title": "Banking Marketing Data Analysis Project using Power BI",
+        "desc": "An interactive Streamlit dashboard showcasing a Power BI bank marketing campaign analysis. Features include looping demo video, dashboard screenshots, downloadable PDF, synthetic banking data exploration, and sentiment analysis of customer reviews.",
+        "link": "https://bank-marketing-analysis-project.streamlit.app/",
+        "github_link": "https://github.com/jaheemedwards/Banking-Marketing-Data-Analysis-Project",
+        "tech_stack": ["Python", "Streamlit", "Pandas", "NumPy", "Power BI", "HTML5 Video", "Sentiment Analysis"],
+        "tags": ["Data Analysis", "Dashboard", "Power BI", "Streamlit", "Sentiment Analysis", "Synthetic Data"],
+        "date": "2026-03-12",
+        "image": "assets/project_images/bank_marketing_data_analysis/overview_screenshot.png",
+        "role": "Data Analyst, Full-stack Developer",
+        "status": "Completed"
     },
     {
         "title": "Automated Data Warehouse",
